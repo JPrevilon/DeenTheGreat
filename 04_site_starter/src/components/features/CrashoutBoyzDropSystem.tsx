@@ -188,16 +188,16 @@ export default function CrashoutBoyzDropSystem() {
             >
               {/* Image + side arrows */}
               <div className="flex items-center gap-3">
-                {/* Left arrow — back */}
+                {/* Left arrow — go to front */}
                 <button
-                  onClick={() => modalHasBack && setModal((p) => p ? { ...p, view: "back" } : null)}
-                  disabled={!modalHasBack}
+                  onClick={() => modal && setModal((p) => p ? { ...p, view: "front" } : null)}
+                  disabled={!modalHasBack || modal?.view === "front"}
                   className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-full border text-lg font-black transition-colors ${
-                    modalHasBack
+                    modalHasBack && modal?.view !== "front"
                       ? "border-acid/40 bg-black/70 text-acid hover:bg-acid/20"
                       : "border-white/10 bg-black/30 text-white/15 cursor-default"
                   }`}
-                  aria-label="View back"
+                  aria-label="View front"
                 >
                   ←
                 </button>
@@ -213,24 +213,24 @@ export default function CrashoutBoyzDropSystem() {
                       src={modalSrc}
                       alt={`${modalItem?.title} — ${modal.view}`}
                       className="block max-h-[75vh] max-w-[75vw] object-contain"
-                      initial={reduceMotion ? false : { opacity: 0, x: 18 }}
+                      initial={reduceMotion ? false : { opacity: 0, x: modal?.view === "back" ? 18 : -18 }}
                       animate={{ opacity: 1, x: 0 }}
-                      exit={reduceMotion ? undefined : { opacity: 0, x: -18 }}
+                      exit={reduceMotion ? undefined : { opacity: 0, x: modal?.view === "back" ? -18 : 18 }}
                       transition={{ duration: 0.18 }}
                     />
                   </AnimatePresence>
                 </div>
 
-                {/* Right arrow — front */}
+                {/* Right arrow — go to back */}
                 <button
-                  onClick={() => modalHasBack && setModal((p) => p ? { ...p, view: "front" } : null)}
-                  disabled={!modalHasBack}
+                  onClick={() => modal && setModal((p) => p ? { ...p, view: "back" } : null)}
+                  disabled={!modalHasBack || modal?.view === "back"}
                   className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-full border text-lg font-black transition-colors ${
-                    modalHasBack
+                    modalHasBack && modal?.view !== "back"
                       ? "border-acid/40 bg-black/70 text-acid hover:bg-acid/20"
                       : "border-white/10 bg-black/30 text-white/15 cursor-default"
                   }`}
-                  aria-label="View front"
+                  aria-label="View back"
                 >
                   →
                 </button>

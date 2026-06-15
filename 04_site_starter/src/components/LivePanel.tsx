@@ -33,7 +33,7 @@ const STREAM_STATS = [
 ] as const;
 
 export default function LivePanel() {
-  const [isLive] = useState(false);
+  const [isLive] = useState(true);
   const reduceMotion = useReducedMotion();
 
   return (
