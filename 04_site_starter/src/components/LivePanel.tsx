@@ -33,7 +33,7 @@ const STREAM_STATS = [
 ] as const;
 
 export default function LivePanel() {
-  const [isLive] = useState(true);
+  const [isLive] = useState(false); // set to true when Deen goes live
   const reduceMotion = useReducedMotion();
 
   return (
@@ -104,9 +104,9 @@ export default function LivePanel() {
               title="DeenTheGreat live on Kick"
             />
 
-            {/* Offline overlay — shown when Kick reports misconfigured/offline */}
+            {/* Offline overlay — covers Kick's misconfigured error when offline */}
             {!isLive && (
-              <div className="pointer-events-none absolute inset-0 z-10 flex flex-col items-center justify-center gap-4 bg-black/80 backdrop-blur-sm">
+              <div className="pointer-events-none absolute inset-0 z-20 flex flex-col items-center justify-center gap-4 bg-black/95">
                 <div className="flex flex-col items-center gap-2 text-center">
                   <img src="/ui/kick-logo.svg" alt="Kick" className="h-8 w-auto opacity-40" />
                   <p className="text-xs font-black uppercase tracking-[.45em] text-white/30">
