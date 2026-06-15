@@ -94,7 +94,7 @@ export default function LivePanel() {
 
             {/* Kick live embed */}
             <iframe
-              src="https://player.kick.com/deenthegreat"
+              src="https://player.kick.com/deenthegreat?muted=true&autoplay=true"
               className="absolute inset-0 h-full w-full"
               height="720"
               width="1280"
@@ -104,6 +104,25 @@ export default function LivePanel() {
               title="DeenTheGreat live on Kick"
             />
 
+            {/* Offline overlay — shown when Kick reports misconfigured/offline */}
+            {!isLive && (
+              <div className="pointer-events-none absolute inset-0 z-10 flex flex-col items-center justify-center gap-4 bg-black/80 backdrop-blur-sm">
+                <div className="flex flex-col items-center gap-2 text-center">
+                  <img src="/ui/kick-logo.svg" alt="Kick" className="h-8 w-auto opacity-40" />
+                  <p className="text-xs font-black uppercase tracking-[.45em] text-white/30">
+                    Offline — Check back soon
+                  </p>
+                </div>
+                <a
+                  href="https://kick.com/deenthegreat"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="pointer-events-auto rounded-full border border-acid/50 bg-acid/10 px-5 py-2.5 text-[11px] font-black uppercase tracking-[.3em] text-acid transition-colors hover:bg-acid/20"
+                >
+                  Watch on Kick →
+                </a>
+              </div>
+            )}
           </div>
         </div>
 
