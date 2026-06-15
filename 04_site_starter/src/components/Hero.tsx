@@ -32,6 +32,35 @@ export default function Hero() {
       id="home"
       className="relative z-10 overflow-hidden px-4 pb-4 pt-20 scanline"
     >
+      {/* Boxing video background */}
+      <div className="pointer-events-none absolute inset-0 overflow-hidden">
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute inset-0 h-full w-full object-cover opacity-[0.18]"
+          style={{ filter: "saturate(0.4) brightness(0.7)" }}
+        >
+          <source src="/videos/boxing.mp4" type="video/mp4" />
+        </video>
+        {/* gradient fade to keep green/black ratio — heavy darken at edges */}
+        <div
+          className="absolute inset-0"
+          style={{
+            background: [
+              "radial-gradient(ellipse 85% 80% at 50% 50%, transparent 30%, rgba(2,3,2,0.82) 100%)",
+              "linear-gradient(to bottom, rgba(2,3,2,0.55) 0%, transparent 25%, transparent 70%, rgba(2,3,2,0.85) 100%)",
+            ].join(", "),
+          }}
+        />
+        {/* acid green tint layer to preserve the green/black color palette */}
+        <div
+          className="absolute inset-0 opacity-[0.06]"
+          style={{ background: "radial-gradient(ellipse 70% 60% at 50% 40%, rgba(196,255,0,0.5), transparent 70%)" }}
+        />
+      </div>
+
       {/* Subtle 72 px grid overlay */}
       <div
         className="pointer-events-none absolute inset-0 opacity-20"
