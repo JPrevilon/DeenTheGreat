@@ -73,24 +73,6 @@ export default function Hero() {
         }}
       />
 
-      {/* Fighter crest — ghosted far-right, decorative only */}
-      <div className="pointer-events-none absolute inset-0 flex items-center justify-end overflow-hidden">
-        <img
-          src="/brand/hero/hero-fighter-crest.png"
-          alt=""
-          className="h-[90vh] max-h-[820px] w-auto translate-x-[12%] object-contain opacity-[0.055] md:opacity-[0.07]"
-          style={{ filter: "drop-shadow(0 0 60px rgba(196,255,0,0.22))" }}
-        />
-      </div>
-
-      {/* Monogram circuit — centered watermark */}
-      <div className="pointer-events-none absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 opacity-[0.025]">
-        <img
-          src="/brand/hero/hero-monogram-circuit.png"
-          alt=""
-          className="h-[70vh] w-auto object-contain"
-        />
-      </div>
 
       {/* ── Content ── */}
       <motion.div

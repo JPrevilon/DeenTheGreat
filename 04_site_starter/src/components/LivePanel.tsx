@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState } from "react"; // isLive state kept for future live detection
 import { motion, useReducedMotion } from "framer-motion";
 import SectionShell from "@/components/SectionShell";
 import { liveHub, siteMeta } from "@/lib/siteContent";
@@ -33,8 +33,7 @@ const STREAM_STATS = [
 ] as const;
 
 export default function LivePanel() {
-  const [isLive]  = useState(false);
-  const [muted, setMuted] = useState(true);
+  const [isLive] = useState(false);
   const reduceMotion = useReducedMotion();
 
   return (
@@ -93,25 +92,18 @@ export default function LivePanel() {
             <span className="pointer-events-none absolute bottom-3 left-3 block h-6 w-6 border-b-2 border-l-2 border-acid/50" />
             <span className="pointer-events-none absolute bottom-3 right-3 block h-6 w-6 border-b-2 border-r-2 border-acid/50" />
 
-            {/* Kick live embed — key forces reload when mute toggles */}
+            {/* Kick live embed */}
             <iframe
-              key={muted ? "muted" : "unmuted"}
-              src={`https://player.kick.com/deenthegreat?muted=${muted}`}
+              src="https://player.kick.com/deenthegreat"
               className="absolute inset-0 h-full w-full"
+              height="720"
+              width="1280"
               frameBorder="0"
               scrolling="no"
               allowFullScreen
               title="DeenTheGreat live on Kick"
             />
 
-            {/* Mute toggle button */}
-            <button
-              onClick={() => setMuted((m) => !m)}
-              className="absolute right-10 top-3 z-10 flex items-center gap-1.5 rounded-full border border-white/20 bg-black/75 px-3 py-1.5 text-[10px] font-black uppercase tracking-[.25em] text-white/60 backdrop-blur-sm transition-colors hover:border-acid/50 hover:text-acid"
-              aria-label={muted ? "Unmute stream" : "Mute stream"}
-            >
-              {muted ? "🔇 Unmute" : "🔊 Mute"}
-            </button>
           </div>
         </div>
 
