@@ -1,5 +1,0 @@
-{
-  "buildCommand": "cd 04_site_starter && npm install && npm run build",
-  "outputDirectory": "04_site_starter/.next",
-  "framework": "nextjs"
-}
