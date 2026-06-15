@@ -1,0 +1,508 @@
+export const flyers = [
+  {
+    "name": "6ix9ine-deshae",
+    "file": "6ix9ine-deshae.jpeg",
+    "src": "/deen-assets/flyers/6ix9ine-deshae.jpeg",
+    "size": [
+      1139,
+      1388
+    ]
+  },
+  {
+    "name": "711-rampage-larry",
+    "file": "711-rampage-larry.jpeg",
+    "src": "/deen-assets/flyers/711-rampage-larry.jpeg",
+    "size": [
+      1638,
+      2048
+    ]
+  },
+  {
+    "name": "711",
+    "file": "711.jpeg",
+    "src": "/deen-assets/flyers/711.jpeg",
+    "size": [
+      941,
+      1672
+    ]
+  },
+  {
+    "name": "7daymarathon",
+    "file": "7daymarathon.jpeg",
+    "src": "/deen-assets/flyers/7daymarathon.jpeg",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "name": "adrienbroner",
+    "file": "adrienbroner.jpeg",
+    "src": "/deen-assets/flyers/adrienbroner.jpeg",
+    "size": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "name": "arman",
+    "file": "arman.jpeg",
+    "src": "/deen-assets/flyers/arman.jpeg",
+    "size": [
+      1023,
+      1537
+    ]
+  },
+  {
+    "name": "capaholics",
+    "file": "capaholics.jpeg",
+    "src": "/deen-assets/flyers/capaholics.jpeg",
+    "size": [
+      1206,
+      1477
+    ]
+  },
+  {
+    "name": "celinapowell",
+    "file": "celinapowell.jpeg",
+    "src": "/deen-assets/flyers/celinapowell.jpeg",
+    "size": [
+      1206,
+      1805
+    ]
+  },
+  {
+    "name": "cripmac",
+    "file": "cripmac.jpeg",
+    "src": "/deen-assets/flyers/cripmac.jpeg",
+    "size": [
+      1638,
+      2048
+    ]
+  },
+  {
+    "name": "ddg",
+    "file": "ddg.jpeg",
+    "src": "/deen-assets/flyers/ddg.jpeg",
+    "size": [
+      1086,
+      1448
+    ]
+  },
+  {
+    "name": "deendavefight",
+    "file": "deendavefight.jpeg",
+    "src": "/deen-assets/flyers/deendavefight.jpeg",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "name": "deenpully",
+    "file": "deenpully.jpg",
+    "src": "/deen-assets/flyers/deenpully.jpg",
+    "size": [
+      480,
+      360
+    ]
+  },
+  {
+    "name": "gym-rampage",
+    "file": "gym-rampage.jpeg",
+    "src": "/deen-assets/flyers/gym-rampage.jpeg",
+    "size": [
+      1024,
+      1084
+    ]
+  },
+  {
+    "name": "handcuff",
+    "file": "handcuff.jpeg",
+    "src": "/deen-assets/flyers/handcuff.jpeg",
+    "size": [
+      1122,
+      1402
+    ]
+  },
+  {
+    "name": "hitboy",
+    "file": "hitboy.jpeg",
+    "src": "/deen-assets/flyers/hitboy.jpeg",
+    "size": [
+      1206,
+      1735
+    ]
+  },
+  {
+    "name": "keyshawndavis",
+    "file": "keyshawndavis.jpeg",
+    "src": "/deen-assets/flyers/keyshawndavis.jpeg",
+    "size": [
+      1638,
+      2048
+    ]
+  },
+  {
+    "name": "kodak",
+    "file": "kodak.jpeg",
+    "src": "/deen-assets/flyers/kodak.jpeg",
+    "size": [
+      1638,
+      2048
+    ]
+  },
+  {
+    "name": "lancestephenson",
+    "file": "lancestephenson.jpeg",
+    "src": "/deen-assets/flyers/lancestephenson.jpeg",
+    "size": [
+      1638,
+      2048
+    ]
+  },
+  {
+    "name": "rampage",
+    "file": "rampage.jpeg",
+    "src": "/deen-assets/flyers/rampage.jpeg",
+    "size": [
+      1086,
+      1448
+    ]
+  },
+  {
+    "name": "rickross",
+    "file": "rickross.jpeg",
+    "src": "/deen-assets/flyers/rickross.jpeg",
+    "size": [
+      1638,
+      2048
+    ]
+  },
+  {
+    "name": "sexxyred",
+    "file": "sexxyred.jpeg",
+    "src": "/deen-assets/flyers/sexxyred.jpeg",
+    "size": [
+      1122,
+      1402
+    ]
+  },
+  {
+    "name": "spaday",
+    "file": "spaday.jpeg",
+    "src": "/deen-assets/flyers/spaday.jpeg",
+    "size": [
+      941,
+      1508
+    ]
+  },
+  {
+    "name": "tacotuesday",
+    "file": "tacotuesday.jpeg",
+    "src": "/deen-assets/flyers/tacotuesday.jpeg",
+    "size": [
+      3277,
+      4096
+    ]
+  },
+  {
+    "name": "tydollasign",
+    "file": "tydollasign.jpeg",
+    "src": "/deen-assets/flyers/tydollasign.jpeg",
+    "size": [
+      1086,
+      1448
+    ]
+  },
+  {
+    "name": "vietnam",
+    "file": "vietnam.jpeg",
+    "src": "/deen-assets/flyers/vietnam.jpeg",
+    "size": [
+      941,
+      1672
+    ]
+  }
+] as const;
+export const photos = [
+  {
+    "name": "711-1",
+    "file": "711-1.jpg",
+    "src": "/deen-assets/photos/711-1.jpg",
+    "size": [
+      686,
+      386
+    ]
+  },
+  {
+    "name": "arman",
+    "file": "arman.jpeg",
+    "src": "/deen-assets/photos/arman.jpeg",
+    "size": [
+      1086,
+      1448
+    ]
+  },
+  {
+    "name": "artclub",
+    "file": "artclub.jpg",
+    "src": "/deen-assets/photos/artclub.jpg",
+    "size": [
+      2560,
+      2048
+    ]
+  },
+  {
+    "name": "bigmeech-lilmeech",
+    "file": "bigmeech-lilmeech.jpeg",
+    "src": "/deen-assets/photos/bigmeech-lilmeech.jpeg",
+    "size": [
+      1086,
+      1448
+    ]
+  },
+  {
+    "name": "bigmeech",
+    "file": "bigmeech.jpeg",
+    "src": "/deen-assets/photos/bigmeech.jpeg",
+    "size": [
+      1536,
+      2048
+    ]
+  },
+  {
+    "name": "blueface",
+    "file": "blueface.jpeg",
+    "src": "/deen-assets/photos/blueface.jpeg",
+    "size": [
+      1086,
+      1448
+    ]
+  },
+  {
+    "name": "boxing-black1",
+    "file": "boxing-black1.jpg",
+    "src": "/deen-assets/photos/boxing-black1.jpg",
+    "size": [
+      1080,
+      1080
+    ]
+  },
+  {
+    "name": "boxing-pink",
+    "file": "boxing-pink.jpg",
+    "src": "/deen-assets/photos/boxing-pink.jpg",
+    "size": [
+      400,
+      500
+    ]
+  },
+  {
+    "name": "boxing-pink2",
+    "file": "boxing-pink2.jpg",
+    "src": "/deen-assets/photos/boxing-pink2.jpg",
+    "size": [
+      2400,
+      1615
+    ]
+  },
+  {
+    "name": "boxing-pink3",
+    "file": "boxing-pink3.jpg",
+    "src": "/deen-assets/photos/boxing-pink3.jpg",
+    "size": [
+      3727,
+      2563
+    ]
+  },
+  {
+    "name": "boxing-pink4",
+    "file": "boxing-pink4.jpg",
+    "src": "/deen-assets/photos/boxing-pink4.jpg",
+    "size": [
+      960,
+      627
+    ]
+  },
+  {
+    "name": "boxing-pink5",
+    "file": "boxing-pink5.jpg",
+    "src": "/deen-assets/photos/boxing-pink5.jpg",
+    "size": [
+      960,
+      649
+    ]
+  },
+  {
+    "name": "boxing-pink6",
+    "file": "boxing-pink6.jpg",
+    "src": "/deen-assets/photos/boxing-pink6.jpg",
+    "size": [
+      1920,
+      1440
+    ]
+  },
+  {
+    "name": "boxing-red1",
+    "file": "boxing-red1.webp",
+    "src": "/deen-assets/photos/boxing-red1.webp",
+    "size": [
+      4974,
+      2798
+    ]
+  },
+  {
+    "name": "boxing-transparent",
+    "file": "boxing-transparent.jpg",
+    "src": "/deen-assets/photos/boxing-transparent.jpg",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "name": "boxing-transparent2",
+    "file": "boxing-transparent2.jpg",
+    "src": "/deen-assets/photos/boxing-transparent2.jpg",
+    "size": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "name": "boxing-transparent3",
+    "file": "boxing-transparent3.jpg",
+    "src": "/deen-assets/photos/boxing-transparent3.jpg",
+    "size": [
+      363,
+      457
+    ]
+  },
+  {
+    "name": "champion",
+    "file": "champion.webp",
+    "src": "/deen-assets/photos/champion.webp",
+    "size": [
+      360,
+      371
+    ]
+  },
+  {
+    "name": "daveblunts",
+    "file": "daveblunts.jpeg",
+    "src": "/deen-assets/photos/daveblunts.jpeg",
+    "size": [
+      1086,
+      1448
+    ]
+  },
+  {
+    "name": "ddg",
+    "file": "ddg.jpeg",
+    "src": "/deen-assets/photos/ddg.jpeg",
+    "size": [
+      1086,
+      1448
+    ]
+  },
+  {
+    "name": "deenandab-blue",
+    "file": "deenandab-blue.webp",
+    "src": "/deen-assets/photos/deenandab-blue.webp",
+    "size": [
+      1200,
+      738
+    ]
+  },
+  {
+    "name": "deenbelt",
+    "file": "deenbelt.webp",
+    "src": "/deen-assets/photos/deenbelt.webp",
+    "size": [
+      1280,
+      720
+    ]
+  },
+  {
+    "name": "deenbelt2",
+    "file": "deenbelt2.webp",
+    "src": "/deen-assets/photos/deenbelt2.webp",
+    "size": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "name": "deenbelt3",
+    "file": "deenbelt3.webp",
+    "src": "/deen-assets/photos/deenbelt3.webp",
+    "size": [
+      850,
+      494
+    ]
+  },
+  {
+    "name": "deenbelt4",
+    "file": "deenbelt4.webp",
+    "src": "/deen-assets/photos/deenbelt4.webp",
+    "size": [
+      960,
+      620
+    ]
+  },
+  {
+    "name": "innout-1",
+    "file": "innout-1.jpg",
+    "src": "/deen-assets/photos/innout-1.jpg",
+    "size": [
+      686,
+      386
+    ]
+  },
+  {
+    "name": "jacquees",
+    "file": "jacquees.jpeg",
+    "src": "/deen-assets/photos/jacquees.jpeg",
+    "size": [
+      1086,
+      1448
+    ]
+  },
+  {
+    "name": "kevingates",
+    "file": "kevingates.jpeg",
+    "src": "/deen-assets/photos/kevingates.jpeg",
+    "size": [
+      1086,
+      1448
+    ]
+  },
+  {
+    "name": "kodakblack",
+    "file": "kodakblack.jpeg",
+    "src": "/deen-assets/photos/kodakblack.jpeg",
+    "size": [
+      1536,
+      2048
+    ]
+  },
+  {
+    "name": "trippieredd-03greedo",
+    "file": "trippieredd-03greedo.jpeg",
+    "src": "/deen-assets/photos/trippieredd-03greedo.jpeg",
+    "size": [
+      1086,
+      1448
+    ]
+  },
+  {
+    "name": "tydollasign",
+    "file": "tydollasign.jpeg",
+    "src": "/deen-assets/photos/tydollasign.jpeg",
+    "size": [
+      1093,
+      1438
+    ]
+  }
+] as const;

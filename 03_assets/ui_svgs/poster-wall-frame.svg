@@ -1,0 +1,8 @@
+<svg width="1000" height="650" viewBox="0 0 1000 650" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="32" y="32" width="936" height="586" rx="24" stroke="#C4FF00" stroke-opacity=".55" stroke-width="4"/>
+<path d="M115 115H885M115 535H885" stroke="#C4FF00" stroke-opacity=".25" stroke-width="2" stroke-dasharray="14 18"/>
+<path d="M220 150L360 118V432L220 464V150Z" fill="#C4FF00" fill-opacity=".12" stroke="#C4FF00"/>
+<path d="M430 110H570V472H430V110Z" fill="#C4FF00" fill-opacity=".18" stroke="#C4FF00"/>
+<path d="M640 118L780 150V464L640 432V118Z" fill="#C4FF00" fill-opacity=".12" stroke="#C4FF00"/>
+<text x="500" y="590" text-anchor="middle" fill="#C4FF00" font-size="22" font-family="Impact, Arial Black, sans-serif" letter-spacing="8">FLYER WALL</text>
+</svg>

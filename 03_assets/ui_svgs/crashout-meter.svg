@@ -1,0 +1,9 @@
+<svg width="480" height="120" viewBox="0 0 480 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="8" y="35" width="464" height="50" rx="10" fill="#050805" stroke="#C4FF00" stroke-opacity=".6" stroke-width="2"/>
+<path d="M28 60H442" stroke="#C4FF00" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 12"/>
+<path d="M46 60L76 36L106 60L76 84L46 60Z" fill="#C4FF00"/>
+<path d="M184 60L214 36L244 60L214 84L184 60Z" fill="#C4FF00" fill-opacity=".45"/>
+<path d="M322 60L352 36L382 60L352 84L322 60Z" fill="#C4FF00" fill-opacity=".25"/>
+<text x="240" y="22" text-anchor="middle" fill="#C4FF00" font-size="16" font-family="Impact, Arial Black, sans-serif" letter-spacing="6">CRASHOUT METER</text>
+<text x="240" y="110" text-anchor="middle" fill="white" fill-opacity=".75" font-size="12" font-family="Arial" letter-spacing="4">CALM / LOCKED / PRESSURE / CRASHOUT</text>
+</svg>

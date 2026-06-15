@@ -1,0 +1,21 @@
+{
+  "bundle": "deen_site_build_bundle_v4",
+  "brand_pack": "v3 distressed futuristic style",
+  "public_paths": {
+    "brand_core": "/brand/core",
+    "brand_nav": "/brand/nav",
+    "ui": "/ui",
+    "flyers": "/deen-assets/flyers",
+    "photos": "/deen-assets/photos"
+  },
+  "new_features": [
+    "Live Fight Mode",
+    "CrashoutBoyz Drop System",
+    "Crashout Meter",
+    "Crashout Easter Egg",
+    "3D Flyer Poster Wall",
+    "The Greats Fan Wall",
+    "Sponsor/Brand Deal Page",
+    "Stream Demo Mode"
+  ]
+}

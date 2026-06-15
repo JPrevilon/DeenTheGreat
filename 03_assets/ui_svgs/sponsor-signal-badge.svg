@@ -1,0 +1,10 @@
+<svg width="420" height="420" viewBox="0 0 420 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="210" cy="210" r="178" fill="#050805" stroke="#C4FF00" stroke-width="6" stroke-dasharray="24 16"/>
+<circle cx="210" cy="210" r="112" stroke="white" stroke-opacity=".55" stroke-width="3"/>
+<path d="M210 90V330M90 210H330" stroke="#C4FF00" stroke-opacity=".4" stroke-width="3"/>
+<path d="M145 255C162 217 179 196 210 196C241 196 258 217 275 255" stroke="#C4FF00" stroke-width="12" stroke-linecap="round"/>
+<path d="M170 285C181 266 193 258 210 258C227 258 239 266 250 285" stroke="white" stroke-width="10" stroke-linecap="round"/>
+<circle cx="210" cy="180" r="24" fill="#C4FF00"/>
+<text x="210" y="70" text-anchor="middle" fill="#C4FF00" font-size="22" font-family="Impact, Arial Black, sans-serif" letter-spacing="7">PARTNER</text>
+<text x="210" y="370" text-anchor="middle" fill="white" font-size="18" font-family="Arial Black" letter-spacing="7">SIGNAL</text>
+</svg>

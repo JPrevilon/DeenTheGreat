@@ -1,0 +1,8 @@
+<svg width="360" height="360" viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg" fill="none">
+<defs><filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<path d="M180 28C112 28 66 78 66 146v54h228v-54C294 78 248 28 180 28Z" fill="#0a0a0a" stroke="#c4ff00" stroke-width="8" filter="url(#glow)"/>
+<path d="M120 206h120l-18 54h-84l-18-54Z" fill="#f8f8f8" stroke="#0a0a0a" stroke-width="8"/>
+<path d="M144 276h72" stroke="#c4ff00" stroke-width="10" stroke-linecap="round"/>
+<circle cx="180" cy="146" r="48" stroke="#f8f8f8" stroke-width="8" opacity=".85"/>
+<path d="M180 64v164" stroke="#c4ff00" stroke-width="4" stroke-dasharray="10 10" opacity=".9"/>
+</svg>

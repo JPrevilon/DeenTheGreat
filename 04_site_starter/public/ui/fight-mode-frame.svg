@@ -1,0 +1,7 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M32 130V32H170M1030 32H1168V130M1168 590V688H1030M170 688H32V590" stroke="#C4FF00" stroke-width="6"/>
+<path d="M95 95H1105M95 625H1105" stroke="#C4FF00" stroke-opacity=".38" stroke-width="2" stroke-dasharray="18 18"/>
+<circle cx="600" cy="360" r="242" stroke="#C4FF00" stroke-opacity=".24" stroke-width="3" stroke-dasharray="14 18"/>
+<path d="M600 76V644M316 360H884" stroke="#C4FF00" stroke-opacity=".19" stroke-width="2"/>
+<text x="600" y="90" text-anchor="middle" fill="#C4FF00" font-size="28" font-family="Impact, Arial Black, sans-serif" letter-spacing="12">FIGHT MODE</text>
+</svg>
