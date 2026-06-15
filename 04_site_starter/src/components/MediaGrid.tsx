@@ -50,6 +50,26 @@ export default function MediaGrid() {
         />
       </div>
 
+      {/* ── Featured Videos ─────────────────────────────────────────────── */}
+      <div className="mb-10 grid gap-5 sm:grid-cols-3">
+        {[
+          { label: "Crashout of the Week", src: "/videos/impossible.mp4" },
+          { label: "Fine Art Wall",         src: "/videos/getup.mp4"      },
+          { label: "Best Clip of the Week", src: "/videos/trippie-red.mp4" },
+        ].map((v) => (
+          <div key={v.src} className="flex flex-col gap-2">
+            <p className="text-[10px] font-black uppercase tracking-[.35em] text-acid">{v.label}</p>
+            <video
+              src={v.src}
+              controls
+              playsInline
+              className="w-full rounded-2xl border border-acid/20 bg-black object-cover"
+              style={{ aspectRatio: "16/9" }}
+            />
+          </div>
+        ))}
+      </div>
+
       {/* ── Photo grid ──────────────────────────────────────────────────── */}
       <motion.div
         className="grid gap-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
