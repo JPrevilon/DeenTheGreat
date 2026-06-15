@@ -33,7 +33,7 @@ const STREAM_STATS = [
 ] as const;
 
 export default function LivePanel() {
-  const [isLive] = useState(false); // set to true when Deen goes live
+  const [isLive] = useState(true);
   const reduceMotion = useReducedMotion();
 
   return (
@@ -94,7 +94,7 @@ export default function LivePanel() {
 
             {/* Kick live embed */}
             <iframe
-              src="https://player.kick.com/deenthegreat?muted=true&autoplay=true"
+              src="https://player.kick.com/deenthegreat"
               className="absolute inset-0 h-full w-full"
               height="720"
               width="1280"
